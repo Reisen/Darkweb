@@ -46,7 +46,7 @@
 
 	.app-listItem::after {
 		border: 0px;
-		border-top: 1px solid #334;
+		border-top: 1px solid #222;
 		background: none;
 	}
 
