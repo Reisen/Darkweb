@@ -1,0 +1,121 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://www.fastmail.com/mail/") {
+	body {
+		color: #EEE;
+	}
+
+	.app-toolbar {
+		background: #27272F;
+		border-bottom: 1px solid #334;
+	}
+
+	.app-sidebar {
+		background: #181819;
+	}
+
+	.app-viewBar {
+		border-bottom: 0px;
+	}
+
+	.app-belowViewBar {
+		border-top: 1px solid #334;
+	}
+
+	.app-main {
+		background: #181819;
+	}
+
+	.app-main > .app-belowToolbar {
+		border-left: 1px solid #334;
+	}
+
+	.app-source.is-selected,
+	.app-source:hover {
+		background-color: #1C1C20;
+		border-color: #334;
+	}
+
+	.app-source > .icon {
+		color: #DFDFEF;
+	}
+
+	.app-listItem {
+		background-color: #181819;
+	}
+
+	.app-listItem::after {
+		border: 0px;
+		border-top: 1px solid #334;
+		background: none;
+	}
+
+	.app-listItem.is-unread {
+		background-color: #242427;
+	}
+
+	.app-listItem.is-selected {
+		background-color: #334455;
+	}
+
+	.app-listItem.is-selected::after {
+		background: none;
+		border: 1px solid #447799;
+	}
+
+	.v-PushSelect-content,
+	.v-ViewBarMessage {
+		background-color: #27272F;
+		border: 1px solid #334;
+	}
+
+	.v-PushSelect-option.is-selected {
+		background-color: #2C2C36;
+		color: white;
+		border-right: 1px solid #334;
+		border-left: 1px solid #334;
+	}
+
+	.v-FolderSource-badge {
+		color: #DFDFEF;
+		background: #1C1C20;
+		border: 1px solid #334;
+	}
+
+	.v-Toolbar-section > .v-Text {
+		color: #DFDFEF !important;
+	}
+
+	.app-toolbar > .v-Toolbar-section > .v-Button,
+	.v-Toolbar-section > .v-Text,
+	.v-Toolbar-section > .v-Text.is-focussed {
+		background-color: #232324;
+		border-color: #334;
+	}
+
+	.app-toolbar > .v-Toolbar-section > .v-Button:hover {
+		background-color: #57575F;
+		border-color: #889;
+	}
+
+	.v-UsageInfo {
+		background-color: #1C1C20;
+		border: 1px solid #334;
+	}
+
+	.v-Select-input {
+		background-color: #1C1C20;
+		color: white;
+		padding: 2px 10px;
+		border: 1px solid #334;
+	}
+
+	.v-StatusBar {
+		background-color: #27272F;
+		border: 1px solid #334;
+	}
+
+	#v68-input {
+		margin-left: 15px;
+	}
+}
