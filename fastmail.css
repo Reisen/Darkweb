@@ -40,6 +40,11 @@
 		color: #DFDFEF;
 	}
 
+	.app-contentCard {
+		background: #27272F;
+		border-color: #334;
+	}
+
 	.app-listItem {
 		background-color: #181819;
 	}
@@ -112,7 +117,47 @@
 
 	.v-StatusBar {
 		background-color: #27272F;
-		border: 1px solid #334;
+		border: 0px;
+	}
+
+	.v-MessageCard-from {
+		color: white !important;
+	}
+
+	.v-MessageCard-time,
+	.v-MessageCard-actions {
+		background: #27272F;
+	}
+
+	.v-Button--standard {
+		background: none;
+		background-color: #232324;
+		border: #334;
+	}
+
+	.v-Message-remote {
+		background-color: #1C1C20;
+		border: #334;
+	}
+
+	.v-Message-details {
+		border-bottom: #334;
+	}
+
+	.v-Message-body {
+		padding: 20px;
+
+		color: #333;
+	}
+
+	.v-Toolbar {
+		background: #1C1C20;
+		border-top: 1px solid #334;
+	}
+
+	.v-Toolbar-divider {
+		border-left: 1px solid #334;
+		border-right: 1px solid #334;
 	}
 
 	#v68-input {
